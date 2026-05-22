@@ -1,4 +1,4 @@
-# Contributing to risc-v-ooo-processor
+# Contributing to 32-Bit-risc_v_out_of_order_processor
 
 Thank you for your interest in contributing! This project is a Verilog implementation of a
 superscalar out-of-order RISC-V (RV32IM) processor using the Tomasulo algorithm.

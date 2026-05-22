@@ -59,7 +59,7 @@ A fully-pipelined, superscalar-capable **RISC-V RV32IM out-of-order processor** 
 ## Repository Structure
 
 ```
-risc-v-ooo-processor/
+32-Bit-risc_v_out_of_order_processor/
 ├── rtl/                        # RTL source files
 │   ├── top.v                   # Top-level module (wires all units together)
 │   ├── include/
