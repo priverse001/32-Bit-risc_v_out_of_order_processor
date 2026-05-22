@@ -1,0 +1,43 @@
+# Vivado generated artifact folders (inside vivado_project/)
+# The .xpr and constraints.xdc ARE tracked; generated cache/sim outputs are NOT.
+vivado_project/*.cache/
+vivado_project/*.hw/
+vivado_project/*.ip_user_files/
+vivado_project/*.sim/
+
+# Any stale top-level project folders (if regenerated via build_vivado.tcl accidentally)
+riscv_ooo_project/
+
+# Vivado generic generated files
+*.jou
+*.str
+*.wdb
+*.pb
+*.bit
+*.ltx
+*.rpt
+*.dcp
+*.mem
+*.mmi
+NA/
+
+# XSim simulation artifacts
+xsim.dir/
+*.vcd
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / Editor files
+Thumbs.db
+.DS_Store
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
