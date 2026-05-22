@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../src/include" \
+"../../../../../src/execution/alu.v" \
+"../../../../../src/core/async_fifo.v" \
+"../../../../../src/core/axi4_lite_master.v" \
+"../../../../../src/core/axi4_lite_master_cdc.v" \
+"../../../../../src/execution/branch_unit.v" \
+"../../../../../src/core/cdb.v" \
+"../../../../../src/core/decode_dispatch.v" \
+"../../../../../src/core/fetch.v" \
+"../../../../../src/execution/lsq.v" \
+"../../../../../src/execution/mdu.v" \
+"../../../../../src/core/perceptron_bpu.v" \
+"../../../../../src/core/rat.v" \
+"../../../../../src/core/register_file.v" \
+"../../../../../src/core/rob.v" \
+"../../../../../src/core/rs.v" \
+"../../../../../src/top.v" \
+"../../../../../sim/tb_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

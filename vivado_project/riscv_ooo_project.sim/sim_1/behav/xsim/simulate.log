@@ -1,0 +1,778 @@
+Time resolution is 1 ps
+[55000] FETCH: req addr=00000000
+[65000] FETCH: req addr=00000000
+[75000] FETCH: req addr=00000000
+[85000] FETCH: req addr=00000000
+[95000] FETCH: req addr=00000000
+[105000] FETCH: req addr=00000000
+[115000] FETCH: req addr=00000000
+[125000] FETCH: req addr=00000000
+[135000] FETCH: req addr=00000000
+[145000] FETCH: req addr=00000000
+[145000] FETCH: ack data=03200093
+[155000] DISPATCH: instr=03200093 pc=00000000 rob_tag=0
+[155000] RS_ALU_ISSUE: dest=0 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=50 op=0
+[165000] FETCH: req addr=00000004
+[175000] FETCH: req addr=00000004
+[175000] ALU_EXEC: dest=0 vj=0 vk=0 imm=50 op=0
+[185000] FETCH: req addr=00000004
+[185000] CDB: tag=0 data=50 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[185000] ALU_RESULT: tag=0 data=50 ack=1
+[195000] FETCH: req addr=00000004
+[205000] FETCH: req addr=00000004
+[205000] COMMIT: rd=x1 data=50 pc=00000000
+[215000] FETCH: req addr=00000004
+[225000] FETCH: req addr=00000004
+[235000] FETCH: req addr=00000004
+[245000] FETCH: req addr=00000004
+[255000] FETCH: req addr=00000004
+[255000] FETCH: ack data=00f00113
+[265000] DISPATCH: instr=00f00113 pc=00000004 rob_tag=1
+[265000] RS_ALU_ISSUE: dest=1 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=15 op=0
+[275000] FETCH: req addr=00000008
+[285000] FETCH: req addr=00000008
+[285000] ALU_EXEC: dest=1 vj=0 vk=0 imm=15 op=0
+[295000] FETCH: req addr=00000008
+[295000] CDB: tag=1 data=15 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[295000] ALU_RESULT: tag=1 data=15 ack=1
+[305000] FETCH: req addr=00000008
+[315000] FETCH: req addr=00000008
+[315000] COMMIT: rd=x2 data=15 pc=00000004
+[325000] FETCH: req addr=00000008
+[335000] FETCH: req addr=00000008
+[345000] FETCH: req addr=00000008
+[355000] FETCH: req addr=00000008
+[365000] FETCH: req addr=00000008
+[365000] FETCH: ack data=002081b3
+[375000] DISPATCH: instr=002081b3 pc=00000008 rob_tag=2
+[375000] RS_ALU_ISSUE: dest=2 vj_valid=1 vj=50 vk_valid=1 vk=15 imm=0 op=0
+[385000] FETCH: req addr=0000000c
+[395000] FETCH: req addr=0000000c
+[395000] ALU_EXEC: dest=2 vj=50 vk=15 imm=0 op=0
+[405000] FETCH: req addr=0000000c
+[405000] CDB: tag=2 data=65 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[405000] ALU_RESULT: tag=2 data=65 ack=1
+[415000] FETCH: req addr=0000000c
+[425000] FETCH: req addr=0000000c
+[425000] COMMIT: rd=x3 data=65 pc=00000008
+[435000] FETCH: req addr=0000000c
+[445000] FETCH: req addr=0000000c
+[455000] FETCH: req addr=0000000c
+[465000] FETCH: req addr=0000000c
+[475000] FETCH: req addr=0000000c
+[475000] FETCH: ack data=40208233
+[485000] DISPATCH: instr=40208233 pc=0000000c rob_tag=3
+[485000] RS_ALU_ISSUE: dest=3 vj_valid=1 vj=50 vk_valid=1 vk=15 imm=0 op=1
+[495000] FETCH: req addr=00000010
+[505000] FETCH: req addr=00000010
+[505000] ALU_EXEC: dest=3 vj=50 vk=15 imm=0 op=1
+[515000] FETCH: req addr=00000010
+[515000] CDB: tag=3 data=35 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[515000] ALU_RESULT: tag=3 data=35 ack=1
+[525000] FETCH: req addr=00000010
+[535000] FETCH: req addr=00000010
+[535000] COMMIT: rd=x4 data=35 pc=0000000c
+[545000] FETCH: req addr=00000010
+[555000] FETCH: req addr=00000010
+[565000] FETCH: req addr=00000010
+[575000] FETCH: req addr=00000010
+[585000] FETCH: req addr=00000010
+[585000] FETCH: ack data=0020f3b3
+[595000] DISPATCH: instr=0020f3b3 pc=00000010 rob_tag=4
+[595000] RS_ALU_ISSUE: dest=4 vj_valid=1 vj=50 vk_valid=1 vk=15 imm=0 op=9
+[605000] FETCH: req addr=00000014
+[615000] FETCH: req addr=00000014
+[615000] ALU_EXEC: dest=4 vj=50 vk=15 imm=0 op=9
+[625000] FETCH: req addr=00000014
+[625000] CDB: tag=4 data=2 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[625000] ALU_RESULT: tag=4 data=2 ack=1
+[635000] FETCH: req addr=00000014
+[645000] FETCH: req addr=00000014
+[645000] COMMIT: rd=x7 data=2 pc=00000010
+[655000] FETCH: req addr=00000014
+[665000] FETCH: req addr=00000014
+[675000] FETCH: req addr=00000014
+[685000] FETCH: req addr=00000014
+[695000] FETCH: req addr=00000014
+[695000] FETCH: ack data=0020e433
+[705000] DISPATCH: instr=0020e433 pc=00000014 rob_tag=5
+[705000] RS_ALU_ISSUE: dest=5 vj_valid=1 vj=50 vk_valid=1 vk=15 imm=0 op=8
+[715000] FETCH: req addr=00000018
+[725000] FETCH: req addr=00000018
+[725000] ALU_EXEC: dest=5 vj=50 vk=15 imm=0 op=8
+[735000] FETCH: req addr=00000018
+[735000] CDB: tag=5 data=63 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[735000] ALU_RESULT: tag=5 data=63 ack=1
+[745000] FETCH: req addr=00000018
+[755000] FETCH: req addr=00000018
+[755000] COMMIT: rd=x8 data=63 pc=00000014
+[765000] FETCH: req addr=00000018
+[775000] FETCH: req addr=00000018
+[785000] FETCH: req addr=00000018
+[795000] FETCH: req addr=00000018
+[805000] FETCH: req addr=00000018
+[805000] FETCH: ack data=022082b3
+[815000] DISPATCH: instr=022082b3 pc=00000018 rob_tag=6
+[825000] FETCH: req addr=0000001c
+[835000] FETCH: req addr=0000001c
+[845000] FETCH: req addr=0000001c
+[855000] FETCH: req addr=0000001c
+[865000] FETCH: req addr=0000001c
+[875000] FETCH: req addr=0000001c
+[885000] FETCH: req addr=0000001c
+[895000] FETCH: req addr=0000001c
+[905000] FETCH: req addr=0000001c
+[915000] FETCH: req addr=0000001c
+[915000] FETCH: ack data=0220c333
+[925000] DISPATCH: instr=0220c333 pc=0000001c rob_tag=7
+[935000] FETCH: req addr=00000020
+[945000] FETCH: req addr=00000020
+[955000] FETCH: req addr=00000020
+[965000] FETCH: req addr=00000020
+[975000] FETCH: req addr=00000020
+[985000] FETCH: req addr=00000020
+[995000] FETCH: req addr=00000020
+[1005000] FETCH: req addr=00000020
+[1015000] FETCH: req addr=00000020
+[1025000] FETCH: req addr=00000020
+[1025000] FETCH: ack data=00502023
+[1035000] DISPATCH: instr=00502023 pc=00000020 rob_tag=8
+[1045000] FETCH: req addr=00000024
+[1055000] FETCH: req addr=00000024
+[1065000] FETCH: req addr=00000024
+[1075000] FETCH: req addr=00000024
+[1085000] FETCH: req addr=00000024
+[1095000] FETCH: req addr=00000024
+[1105000] FETCH: req addr=00000024
+[1115000] FETCH: req addr=00000024
+[1125000] FETCH: req addr=00000024
+[1135000] FETCH: req addr=00000024
+[1135000] FETCH: ack data=00002483
+[1145000] DISPATCH: instr=00002483 pc=00000024 rob_tag=9
+[1155000] FETCH: req addr=00000028
+[1165000] FETCH: req addr=00000028
+[1175000] FETCH: req addr=00000028
+[1175000] CDB: tag=6 data=750 (alu_req=0 br_req=0 lsq_req=0 mdu_req=1)
+[1185000] FETCH: req addr=00000028
+[1195000] FETCH: req addr=00000028
+[1195000] COMMIT: rd=x5 data=750 pc=00000018
+[1205000] FETCH: req addr=00000028
+[1215000] FETCH: req addr=00000028
+[1215000] CDB: tag=8 data=0 (alu_req=0 br_req=0 lsq_req=1 mdu_req=0)
+[1225000] FETCH: req addr=00000028
+[1235000] FETCH: req addr=00000028
+[1245000] FETCH: req addr=00000028
+[1245000] FETCH: ack data=00000013
+[1255000] DISPATCH: instr=00000013 pc=00000028 rob_tag=10
+[1255000] RS_ALU_ISSUE: dest=10 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1265000] FETCH: req addr=0000002c
+[1275000] FETCH: req addr=0000002c
+[1275000] ALU_EXEC: dest=10 vj=0 vk=0 imm=0 op=0
+[1285000] FETCH: req addr=0000002c
+[1285000] CDB: tag=10 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1285000] ALU_RESULT: tag=10 data=0 ack=1
+[1295000] FETCH: req addr=0000002c
+[1305000] FETCH: req addr=0000002c
+[1315000] FETCH: req addr=0000002c
+[1325000] FETCH: req addr=0000002c
+[1335000] FETCH: req addr=0000002c
+[1345000] FETCH: req addr=0000002c
+[1355000] FETCH: req addr=0000002c
+[1355000] FETCH: ack data=00000013
+[1365000] DISPATCH: instr=00000013 pc=0000002c rob_tag=11
+[1365000] RS_ALU_ISSUE: dest=11 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1375000] FETCH: req addr=00000030
+[1385000] FETCH: req addr=00000030
+[1385000] ALU_EXEC: dest=11 vj=0 vk=0 imm=0 op=0
+[1395000] FETCH: req addr=00000030
+[1395000] CDB: tag=11 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1395000] ALU_RESULT: tag=11 data=0 ack=1
+[1405000] FETCH: req addr=00000030
+[1415000] FETCH: req addr=00000030
+[1425000] FETCH: req addr=00000030
+[1435000] FETCH: req addr=00000030
+[1445000] FETCH: req addr=00000030
+[1455000] FETCH: req addr=00000030
+[1465000] FETCH: req addr=00000030
+[1465000] FETCH: ack data=00000013
+[1475000] DISPATCH: instr=00000013 pc=00000030 rob_tag=12
+[1475000] RS_ALU_ISSUE: dest=12 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1485000] FETCH: req addr=00000034
+[1495000] FETCH: req addr=00000034
+[1495000] ALU_EXEC: dest=12 vj=0 vk=0 imm=0 op=0
+[1505000] FETCH: req addr=00000034
+[1505000] CDB: tag=12 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1505000] ALU_RESULT: tag=12 data=0 ack=1
+[1515000] FETCH: req addr=00000034
+[1525000] FETCH: req addr=00000034
+[1535000] FETCH: req addr=00000034
+[1535000] CDB: tag=7 data=3 (alu_req=0 br_req=0 lsq_req=0 mdu_req=1)
+[1545000] FETCH: req addr=00000034
+[1555000] FETCH: req addr=00000034
+[1555000] COMMIT: rd=x6 data=3 pc=0000001c
+[1565000] FETCH: req addr=00000034
+[1565000] COMMIT: rd=x0 data=0 pc=00000020
+[1575000] FETCH: req addr=00000034
+[1575000] FETCH: ack data=00000013
+[1585000] DISPATCH: instr=00000013 pc=00000034 rob_tag=13
+[1585000] RS_ALU_ISSUE: dest=13 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1595000] FETCH: req addr=00000038
+[1605000] FETCH: req addr=00000038
+[1605000] ALU_EXEC: dest=13 vj=0 vk=0 imm=0 op=0
+[1615000] FETCH: req addr=00000038
+[1615000] CDB: tag=13 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1615000] ALU_RESULT: tag=13 data=0 ack=1
+[1625000] FETCH: req addr=00000038
+[1635000] FETCH: req addr=00000038
+[1645000] FETCH: req addr=00000038
+[1655000] FETCH: req addr=00000038
+[1665000] FETCH: req addr=00000038
+[1675000] FETCH: req addr=00000038
+[1685000] FETCH: req addr=00000038
+[1685000] FETCH: ack data=00000013
+[1695000] DISPATCH: instr=00000013 pc=00000038 rob_tag=14
+[1695000] RS_ALU_ISSUE: dest=14 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1705000] FETCH: req addr=0000003c
+[1715000] FETCH: req addr=0000003c
+[1715000] ALU_EXEC: dest=14 vj=0 vk=0 imm=0 op=0
+[1725000] FETCH: req addr=0000003c
+[1725000] CDB: tag=14 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1725000] ALU_RESULT: tag=14 data=0 ack=1
+[1735000] FETCH: req addr=0000003c
+[1745000] FETCH: req addr=0000003c
+[1755000] FETCH: req addr=0000003c
+[1765000] FETCH: req addr=0000003c
+[1775000] FETCH: req addr=0000003c
+[1785000] FETCH: req addr=0000003c
+[1795000] FETCH: req addr=0000003c
+[1795000] FETCH: ack data=00000013
+[1805000] DISPATCH: instr=00000013 pc=0000003c rob_tag=15
+[1805000] RS_ALU_ISSUE: dest=15 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1815000] FETCH: req addr=00000040
+[1825000] FETCH: req addr=00000040
+[1825000] ALU_EXEC: dest=15 vj=0 vk=0 imm=0 op=0
+[1835000] FETCH: req addr=00000040
+[1835000] CDB: tag=9 data=750 (alu_req=1 br_req=0 lsq_req=1 mdu_req=0)
+[1835000] ALU_RESULT: tag=15 data=0 ack=0
+[1845000] FETCH: req addr=00000040
+[1845000] CDB: tag=15 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1845000] ALU_RESULT: tag=15 data=0 ack=1
+[1855000] FETCH: req addr=00000040
+[1855000] COMMIT: rd=x9 data=750 pc=00000024
+[1865000] FETCH: req addr=00000040
+[1865000] COMMIT: rd=x0 data=0 pc=00000028
+[1875000] FETCH: req addr=00000040
+[1875000] COMMIT: rd=x0 data=0 pc=0000002c
+[1885000] FETCH: req addr=00000040
+[1885000] COMMIT: rd=x0 data=0 pc=00000030
+[1895000] FETCH: req addr=00000040
+[1895000] COMMIT: rd=x0 data=0 pc=00000034
+[1905000] FETCH: req addr=00000040
+[1905000] FETCH: ack data=00000013
+[1905000] COMMIT: rd=x0 data=0 pc=00000038
+[1915000] DISPATCH: instr=00000013 pc=00000040 rob_tag=0
+[1915000] COMMIT: rd=x0 data=0 pc=0000003c
+[1915000] RS_ALU_ISSUE: dest=0 vj_valid=1 vj=0 vk_valid=1 vk=0 imm=0 op=0
+[1925000] FETCH: req addr=00000044
+[1935000] FETCH: req addr=00000044
+[1935000] ALU_EXEC: dest=0 vj=0 vk=0 imm=0 op=0
+[1945000] FETCH: req addr=00000044
+[1945000] CDB: tag=0 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[1945000] ALU_RESULT: tag=0 data=0 ack=1
+[1955000] FETCH: req addr=00000044
+[1965000] FETCH: req addr=00000044
+[1965000] COMMIT: rd=x0 data=0 pc=00000040
+[1975000] FETCH: req addr=00000044
+[1985000] FETCH: req addr=00000044
+[1995000] FETCH: req addr=00000044
+[2005000] FETCH: req addr=00000044
+[2015000] FETCH: req addr=00000044
+[2015000] FETCH: ack data=00000013
+[2025000] DISPATCH: instr=00000013 pc=00000044 rob_tag=1
+[2035000] FETCH: req addr=00000048
+[2045000] FETCH: req addr=00000048
+[2055000] FETCH: req addr=00000048
+[2055000] CDB: tag=1 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2065000] FETCH: req addr=00000048
+[2075000] FETCH: req addr=00000048
+[2075000] COMMIT: rd=x0 data=0 pc=00000044
+[2085000] FETCH: req addr=00000048
+[2095000] FETCH: req addr=00000048
+[2105000] FETCH: req addr=00000048
+[2115000] FETCH: req addr=00000048
+[2125000] FETCH: req addr=00000048
+[2125000] FETCH: ack data=00000013
+[2135000] DISPATCH: instr=00000013 pc=00000048 rob_tag=2
+[2145000] FETCH: req addr=0000004c
+[2155000] FETCH: req addr=0000004c
+[2165000] FETCH: req addr=0000004c
+[2165000] CDB: tag=2 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2175000] FETCH: req addr=0000004c
+[2185000] FETCH: req addr=0000004c
+[2185000] COMMIT: rd=x0 data=0 pc=00000048
+[2195000] FETCH: req addr=0000004c
+[2205000] FETCH: req addr=0000004c
+[2215000] FETCH: req addr=0000004c
+[2225000] FETCH: req addr=0000004c
+[2235000] FETCH: req addr=0000004c
+[2235000] FETCH: ack data=00000013
+[2245000] DISPATCH: instr=00000013 pc=0000004c rob_tag=3
+[2255000] FETCH: req addr=00000050
+[2265000] FETCH: req addr=00000050
+[2275000] FETCH: req addr=00000050
+[2275000] CDB: tag=3 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2285000] FETCH: req addr=00000050
+[2295000] FETCH: req addr=00000050
+[2295000] COMMIT: rd=x0 data=0 pc=0000004c
+[2305000] FETCH: req addr=00000050
+[2315000] FETCH: req addr=00000050
+[2325000] FETCH: req addr=00000050
+[2335000] FETCH: req addr=00000050
+[2345000] FETCH: req addr=00000050
+[2345000] FETCH: ack data=00000013
+[2355000] DISPATCH: instr=00000013 pc=00000050 rob_tag=4
+[2365000] FETCH: req addr=00000054
+[2375000] FETCH: req addr=00000054
+[2385000] FETCH: req addr=00000054
+[2385000] CDB: tag=4 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2395000] FETCH: req addr=00000054
+[2405000] FETCH: req addr=00000054
+[2405000] COMMIT: rd=x0 data=0 pc=00000050
+[2415000] FETCH: req addr=00000054
+[2425000] FETCH: req addr=00000054
+[2435000] FETCH: req addr=00000054
+[2445000] FETCH: req addr=00000054
+[2455000] FETCH: req addr=00000054
+[2455000] FETCH: ack data=00000013
+[2465000] DISPATCH: instr=00000013 pc=00000054 rob_tag=5
+[2475000] FETCH: req addr=00000058
+[2485000] FETCH: req addr=00000058
+[2495000] FETCH: req addr=00000058
+[2495000] CDB: tag=5 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2505000] FETCH: req addr=00000058
+[2515000] FETCH: req addr=00000058
+[2515000] COMMIT: rd=x0 data=0 pc=00000054
+[2525000] FETCH: req addr=00000058
+[2535000] FETCH: req addr=00000058
+[2545000] FETCH: req addr=00000058
+[2555000] FETCH: req addr=00000058
+[2565000] FETCH: req addr=00000058
+[2565000] FETCH: ack data=00000013
+[2575000] DISPATCH: instr=00000013 pc=00000058 rob_tag=6
+[2585000] FETCH: req addr=0000005c
+[2595000] FETCH: req addr=0000005c
+[2605000] FETCH: req addr=0000005c
+[2605000] CDB: tag=6 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2615000] FETCH: req addr=0000005c
+[2625000] FETCH: req addr=0000005c
+[2625000] COMMIT: rd=x0 data=0 pc=00000058
+[2635000] FETCH: req addr=0000005c
+[2645000] FETCH: req addr=0000005c
+[2655000] FETCH: req addr=0000005c
+[2665000] FETCH: req addr=0000005c
+[2675000] FETCH: req addr=0000005c
+[2675000] FETCH: ack data=00000013
+[2685000] DISPATCH: instr=00000013 pc=0000005c rob_tag=7
+[2695000] FETCH: req addr=00000060
+[2705000] FETCH: req addr=00000060
+[2715000] FETCH: req addr=00000060
+[2715000] CDB: tag=7 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2725000] FETCH: req addr=00000060
+[2735000] FETCH: req addr=00000060
+[2735000] COMMIT: rd=x0 data=0 pc=0000005c
+[2745000] FETCH: req addr=00000060
+[2755000] FETCH: req addr=00000060
+[2765000] FETCH: req addr=00000060
+[2775000] FETCH: req addr=00000060
+[2785000] FETCH: req addr=00000060
+[2785000] FETCH: ack data=00000013
+[2795000] DISPATCH: instr=00000013 pc=00000060 rob_tag=8
+[2805000] FETCH: req addr=00000064
+[2815000] FETCH: req addr=00000064
+[2825000] FETCH: req addr=00000064
+[2825000] CDB: tag=8 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2835000] FETCH: req addr=00000064
+[2845000] FETCH: req addr=00000064
+[2845000] COMMIT: rd=x0 data=0 pc=00000060
+[2855000] FETCH: req addr=00000064
+[2865000] FETCH: req addr=00000064
+[2875000] FETCH: req addr=00000064
+[2885000] FETCH: req addr=00000064
+[2895000] FETCH: req addr=00000064
+[2895000] FETCH: ack data=00000013
+[2905000] DISPATCH: instr=00000013 pc=00000064 rob_tag=9
+[2915000] FETCH: req addr=00000068
+[2925000] FETCH: req addr=00000068
+[2935000] FETCH: req addr=00000068
+[2935000] CDB: tag=9 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[2945000] FETCH: req addr=00000068
+[2955000] FETCH: req addr=00000068
+[2955000] COMMIT: rd=x0 data=0 pc=00000064
+[2965000] FETCH: req addr=00000068
+[2975000] FETCH: req addr=00000068
+[2985000] FETCH: req addr=00000068
+[2995000] FETCH: req addr=00000068
+[3005000] FETCH: req addr=00000068
+[3005000] FETCH: ack data=00000013
+[3015000] DISPATCH: instr=00000013 pc=00000068 rob_tag=10
+[3025000] FETCH: req addr=0000006c
+[3035000] FETCH: req addr=0000006c
+[3045000] FETCH: req addr=0000006c
+[3045000] CDB: tag=10 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3055000] FETCH: req addr=0000006c
+[3065000] FETCH: req addr=0000006c
+[3065000] COMMIT: rd=x0 data=0 pc=00000068
+[3075000] FETCH: req addr=0000006c
+[3085000] FETCH: req addr=0000006c
+[3095000] FETCH: req addr=0000006c
+[3105000] FETCH: req addr=0000006c
+[3115000] FETCH: req addr=0000006c
+[3115000] FETCH: ack data=00000013
+[3125000] DISPATCH: instr=00000013 pc=0000006c rob_tag=11
+[3135000] FETCH: req addr=00000070
+[3145000] FETCH: req addr=00000070
+[3155000] FETCH: req addr=00000070
+[3155000] CDB: tag=11 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3165000] FETCH: req addr=00000070
+[3175000] FETCH: req addr=00000070
+[3175000] COMMIT: rd=x0 data=0 pc=0000006c
+[3185000] FETCH: req addr=00000070
+[3195000] FETCH: req addr=00000070
+[3205000] FETCH: req addr=00000070
+[3215000] FETCH: req addr=00000070
+[3225000] FETCH: req addr=00000070
+[3225000] FETCH: ack data=00000013
+[3235000] DISPATCH: instr=00000013 pc=00000070 rob_tag=12
+[3245000] FETCH: req addr=00000074
+[3255000] FETCH: req addr=00000074
+[3265000] FETCH: req addr=00000074
+[3265000] CDB: tag=12 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3275000] FETCH: req addr=00000074
+[3285000] FETCH: req addr=00000074
+[3285000] COMMIT: rd=x0 data=0 pc=00000070
+[3295000] FETCH: req addr=00000074
+[3305000] FETCH: req addr=00000074
+[3315000] FETCH: req addr=00000074
+[3325000] FETCH: req addr=00000074
+[3335000] FETCH: req addr=00000074
+[3335000] FETCH: ack data=00000013
+[3345000] DISPATCH: instr=00000013 pc=00000074 rob_tag=13
+[3355000] FETCH: req addr=00000078
+[3365000] FETCH: req addr=00000078
+[3375000] FETCH: req addr=00000078
+[3375000] CDB: tag=13 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3385000] FETCH: req addr=00000078
+[3395000] FETCH: req addr=00000078
+[3395000] COMMIT: rd=x0 data=0 pc=00000074
+[3405000] FETCH: req addr=00000078
+[3415000] FETCH: req addr=00000078
+[3425000] FETCH: req addr=00000078
+[3435000] FETCH: req addr=00000078
+[3445000] FETCH: req addr=00000078
+[3445000] FETCH: ack data=00000013
+[3455000] DISPATCH: instr=00000013 pc=00000078 rob_tag=14
+[3465000] FETCH: req addr=0000007c
+[3475000] FETCH: req addr=0000007c
+[3485000] FETCH: req addr=0000007c
+[3485000] CDB: tag=14 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3495000] FETCH: req addr=0000007c
+[3505000] FETCH: req addr=0000007c
+[3505000] COMMIT: rd=x0 data=0 pc=00000078
+[3515000] FETCH: req addr=0000007c
+[3525000] FETCH: req addr=0000007c
+[3535000] FETCH: req addr=0000007c
+[3545000] FETCH: req addr=0000007c
+[3555000] FETCH: req addr=0000007c
+[3555000] FETCH: ack data=00000013
+[3565000] DISPATCH: instr=00000013 pc=0000007c rob_tag=15
+[3575000] FETCH: req addr=00000080
+[3585000] FETCH: req addr=00000080
+[3595000] FETCH: req addr=00000080
+[3595000] CDB: tag=15 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3605000] FETCH: req addr=00000080
+[3615000] FETCH: req addr=00000080
+[3615000] COMMIT: rd=x0 data=0 pc=0000007c
+[3625000] FETCH: req addr=00000080
+[3635000] FETCH: req addr=00000080
+[3645000] FETCH: req addr=00000080
+[3655000] FETCH: req addr=00000080
+[3665000] FETCH: req addr=00000080
+[3665000] FETCH: ack data=00000013
+[3675000] DISPATCH: instr=00000013 pc=00000080 rob_tag=0
+[3685000] FETCH: req addr=00000084
+[3695000] FETCH: req addr=00000084
+[3705000] FETCH: req addr=00000084
+[3705000] CDB: tag=0 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3715000] FETCH: req addr=00000084
+[3725000] FETCH: req addr=00000084
+[3725000] COMMIT: rd=x0 data=0 pc=00000080
+[3735000] FETCH: req addr=00000084
+[3745000] FETCH: req addr=00000084
+[3755000] FETCH: req addr=00000084
+[3765000] FETCH: req addr=00000084
+[3775000] FETCH: req addr=00000084
+[3775000] FETCH: ack data=00000013
+[3785000] DISPATCH: instr=00000013 pc=00000084 rob_tag=1
+[3795000] FETCH: req addr=00000088
+[3805000] FETCH: req addr=00000088
+[3815000] FETCH: req addr=00000088
+[3815000] CDB: tag=1 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3825000] FETCH: req addr=00000088
+[3835000] FETCH: req addr=00000088
+[3835000] COMMIT: rd=x0 data=0 pc=00000084
+[3845000] FETCH: req addr=00000088
+[3855000] FETCH: req addr=00000088
+[3865000] FETCH: req addr=00000088
+[3875000] FETCH: req addr=00000088
+[3885000] FETCH: req addr=00000088
+[3885000] FETCH: ack data=00000013
+[3895000] DISPATCH: instr=00000013 pc=00000088 rob_tag=2
+[3905000] FETCH: req addr=0000008c
+[3915000] FETCH: req addr=0000008c
+[3925000] FETCH: req addr=0000008c
+[3925000] CDB: tag=2 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[3935000] FETCH: req addr=0000008c
+[3945000] FETCH: req addr=0000008c
+[3945000] COMMIT: rd=x0 data=0 pc=00000088
+[3955000] FETCH: req addr=0000008c
+[3965000] FETCH: req addr=0000008c
+[3975000] FETCH: req addr=0000008c
+[3985000] FETCH: req addr=0000008c
+[3995000] FETCH: req addr=0000008c
+[3995000] FETCH: ack data=00000013
+[4005000] DISPATCH: instr=00000013 pc=0000008c rob_tag=3
+[4015000] FETCH: req addr=00000090
+[4025000] FETCH: req addr=00000090
+[4035000] FETCH: req addr=00000090
+[4035000] CDB: tag=3 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4045000] FETCH: req addr=00000090
+[4055000] FETCH: req addr=00000090
+[4055000] COMMIT: rd=x0 data=0 pc=0000008c
+[4065000] FETCH: req addr=00000090
+[4075000] FETCH: req addr=00000090
+[4085000] FETCH: req addr=00000090
+[4095000] FETCH: req addr=00000090
+[4105000] FETCH: req addr=00000090
+[4105000] FETCH: ack data=00000013
+[4115000] DISPATCH: instr=00000013 pc=00000090 rob_tag=4
+[4125000] FETCH: req addr=00000094
+[4135000] FETCH: req addr=00000094
+[4145000] FETCH: req addr=00000094
+[4145000] CDB: tag=4 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4155000] FETCH: req addr=00000094
+[4165000] FETCH: req addr=00000094
+[4165000] COMMIT: rd=x0 data=0 pc=00000090
+[4175000] FETCH: req addr=00000094
+[4185000] FETCH: req addr=00000094
+[4195000] FETCH: req addr=00000094
+[4205000] FETCH: req addr=00000094
+[4215000] FETCH: req addr=00000094
+[4215000] FETCH: ack data=00000013
+[4225000] DISPATCH: instr=00000013 pc=00000094 rob_tag=5
+[4235000] FETCH: req addr=00000098
+[4245000] FETCH: req addr=00000098
+[4255000] FETCH: req addr=00000098
+[4255000] CDB: tag=5 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4265000] FETCH: req addr=00000098
+[4275000] FETCH: req addr=00000098
+[4275000] COMMIT: rd=x0 data=0 pc=00000094
+[4285000] FETCH: req addr=00000098
+[4295000] FETCH: req addr=00000098
+[4305000] FETCH: req addr=00000098
+[4315000] FETCH: req addr=00000098
+[4325000] FETCH: req addr=00000098
+[4325000] FETCH: ack data=00000013
+[4335000] DISPATCH: instr=00000013 pc=00000098 rob_tag=6
+[4345000] FETCH: req addr=0000009c
+[4355000] FETCH: req addr=0000009c
+[4365000] FETCH: req addr=0000009c
+[4365000] CDB: tag=6 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4375000] FETCH: req addr=0000009c
+[4385000] FETCH: req addr=0000009c
+[4385000] COMMIT: rd=x0 data=0 pc=00000098
+[4395000] FETCH: req addr=0000009c
+[4405000] FETCH: req addr=0000009c
+[4415000] FETCH: req addr=0000009c
+[4425000] FETCH: req addr=0000009c
+[4435000] FETCH: req addr=0000009c
+[4435000] FETCH: ack data=00000013
+[4445000] DISPATCH: instr=00000013 pc=0000009c rob_tag=7
+[4455000] FETCH: req addr=000000a0
+[4465000] FETCH: req addr=000000a0
+[4475000] FETCH: req addr=000000a0
+[4475000] CDB: tag=7 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4485000] FETCH: req addr=000000a0
+[4495000] FETCH: req addr=000000a0
+[4495000] COMMIT: rd=x0 data=0 pc=0000009c
+[4505000] FETCH: req addr=000000a0
+[4515000] FETCH: req addr=000000a0
+[4525000] FETCH: req addr=000000a0
+[4535000] FETCH: req addr=000000a0
+[4545000] FETCH: req addr=000000a0
+[4545000] FETCH: ack data=00000013
+[4555000] DISPATCH: instr=00000013 pc=000000a0 rob_tag=8
+[4565000] FETCH: req addr=000000a4
+[4575000] FETCH: req addr=000000a4
+[4585000] FETCH: req addr=000000a4
+[4585000] CDB: tag=8 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4595000] FETCH: req addr=000000a4
+[4605000] FETCH: req addr=000000a4
+[4605000] COMMIT: rd=x0 data=0 pc=000000a0
+[4615000] FETCH: req addr=000000a4
+[4625000] FETCH: req addr=000000a4
+[4635000] FETCH: req addr=000000a4
+[4645000] FETCH: req addr=000000a4
+[4655000] FETCH: req addr=000000a4
+[4655000] FETCH: ack data=00000013
+[4665000] DISPATCH: instr=00000013 pc=000000a4 rob_tag=9
+[4675000] FETCH: req addr=000000a8
+[4685000] FETCH: req addr=000000a8
+[4695000] FETCH: req addr=000000a8
+[4695000] CDB: tag=9 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4705000] FETCH: req addr=000000a8
+[4715000] FETCH: req addr=000000a8
+[4715000] COMMIT: rd=x0 data=0 pc=000000a4
+[4725000] FETCH: req addr=000000a8
+[4735000] FETCH: req addr=000000a8
+[4745000] FETCH: req addr=000000a8
+[4755000] FETCH: req addr=000000a8
+[4765000] FETCH: req addr=000000a8
+[4765000] FETCH: ack data=00000013
+[4775000] DISPATCH: instr=00000013 pc=000000a8 rob_tag=10
+[4785000] FETCH: req addr=000000ac
+[4795000] FETCH: req addr=000000ac
+[4805000] FETCH: req addr=000000ac
+[4805000] CDB: tag=10 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4815000] FETCH: req addr=000000ac
+[4825000] FETCH: req addr=000000ac
+[4825000] COMMIT: rd=x0 data=0 pc=000000a8
+[4835000] FETCH: req addr=000000ac
+[4845000] FETCH: req addr=000000ac
+[4855000] FETCH: req addr=000000ac
+[4865000] FETCH: req addr=000000ac
+[4875000] FETCH: req addr=000000ac
+[4875000] FETCH: ack data=00000013
+[4885000] DISPATCH: instr=00000013 pc=000000ac rob_tag=11
+[4895000] FETCH: req addr=000000b0
+[4905000] FETCH: req addr=000000b0
+[4915000] FETCH: req addr=000000b0
+[4915000] CDB: tag=11 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[4925000] FETCH: req addr=000000b0
+[4935000] FETCH: req addr=000000b0
+[4935000] COMMIT: rd=x0 data=0 pc=000000ac
+[4945000] FETCH: req addr=000000b0
+[4955000] FETCH: req addr=000000b0
+[4965000] FETCH: req addr=000000b0
+[4975000] FETCH: req addr=000000b0
+[4985000] FETCH: req addr=000000b0
+[4985000] FETCH: ack data=00000013
+[4995000] DISPATCH: instr=00000013 pc=000000b0 rob_tag=12
+[5025000] CDB: tag=12 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5045000] COMMIT: rd=x0 data=0 pc=000000b0
+[5135000] CDB: tag=13 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5155000] COMMIT: rd=x0 data=0 pc=000000b4
+[5245000] CDB: tag=14 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5265000] COMMIT: rd=x0 data=0 pc=000000b8
+[5355000] CDB: tag=15 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5375000] COMMIT: rd=x0 data=0 pc=000000bc
+[5465000] CDB: tag=0 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5485000] COMMIT: rd=x0 data=0 pc=000000c0
+[5575000] CDB: tag=1 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5595000] COMMIT: rd=x0 data=0 pc=000000c4
+[5685000] CDB: tag=2 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5705000] COMMIT: rd=x0 data=0 pc=000000c8
+[5795000] CDB: tag=3 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5815000] COMMIT: rd=x0 data=0 pc=000000cc
+[5905000] CDB: tag=4 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[5925000] COMMIT: rd=x0 data=0 pc=000000d0
+[6015000] CDB: tag=5 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6035000] COMMIT: rd=x0 data=0 pc=000000d4
+[6125000] CDB: tag=6 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6145000] COMMIT: rd=x0 data=0 pc=000000d8
+[6235000] CDB: tag=7 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6255000] COMMIT: rd=x0 data=0 pc=000000dc
+[6345000] CDB: tag=8 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6365000] COMMIT: rd=x0 data=0 pc=000000e0
+[6455000] CDB: tag=9 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6475000] COMMIT: rd=x0 data=0 pc=000000e4
+[6565000] CDB: tag=10 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6585000] COMMIT: rd=x0 data=0 pc=000000e8
+[6675000] CDB: tag=11 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6695000] COMMIT: rd=x0 data=0 pc=000000ec
+[6785000] CDB: tag=12 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6805000] COMMIT: rd=x0 data=0 pc=000000f0
+[6895000] CDB: tag=13 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[6915000] COMMIT: rd=x0 data=0 pc=000000f4
+[7005000] CDB: tag=14 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7025000] COMMIT: rd=x0 data=0 pc=000000f8
+[7115000] CDB: tag=15 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7135000] COMMIT: rd=x0 data=0 pc=000000fc
+[7225000] CDB: tag=0 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7245000] COMMIT: rd=x0 data=0 pc=00000100
+[7335000] CDB: tag=1 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7355000] COMMIT: rd=x0 data=0 pc=00000104
+[7445000] CDB: tag=2 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7465000] COMMIT: rd=x0 data=0 pc=00000108
+[7555000] CDB: tag=3 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7575000] COMMIT: rd=x0 data=0 pc=0000010c
+[7665000] CDB: tag=4 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7685000] COMMIT: rd=x0 data=0 pc=00000110
+[7775000] CDB: tag=5 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7795000] COMMIT: rd=x0 data=0 pc=00000114
+[7885000] CDB: tag=6 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[7905000] COMMIT: rd=x0 data=0 pc=00000118
+[7995000] CDB: tag=7 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8015000] COMMIT: rd=x0 data=0 pc=0000011c
+[8105000] CDB: tag=8 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8125000] COMMIT: rd=x0 data=0 pc=00000120
+[8215000] CDB: tag=9 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8235000] COMMIT: rd=x0 data=0 pc=00000124
+[8325000] CDB: tag=10 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8345000] COMMIT: rd=x0 data=0 pc=00000128
+[8435000] CDB: tag=11 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8455000] COMMIT: rd=x0 data=0 pc=0000012c
+[8545000] CDB: tag=12 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8565000] COMMIT: rd=x0 data=0 pc=00000130
+[8655000] CDB: tag=13 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8675000] COMMIT: rd=x0 data=0 pc=00000134
+[8765000] CDB: tag=14 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8785000] COMMIT: rd=x0 data=0 pc=00000138
+[8875000] CDB: tag=15 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[8895000] COMMIT: rd=x0 data=0 pc=0000013c
+[8985000] CDB: tag=0 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9005000] COMMIT: rd=x0 data=0 pc=00000140
+[9095000] CDB: tag=1 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9115000] COMMIT: rd=x0 data=0 pc=00000144
+[9205000] CDB: tag=2 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9225000] COMMIT: rd=x0 data=0 pc=00000148
+[9315000] CDB: tag=3 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9335000] COMMIT: rd=x0 data=0 pc=0000014c
+[9425000] CDB: tag=4 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9445000] COMMIT: rd=x0 data=0 pc=00000150
+[9535000] CDB: tag=5 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9555000] COMMIT: rd=x0 data=0 pc=00000154
+[9645000] CDB: tag=6 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9665000] COMMIT: rd=x0 data=0 pc=00000158
+[9755000] CDB: tag=7 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9775000] COMMIT: rd=x0 data=0 pc=0000015c
+[9865000] CDB: tag=8 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9885000] COMMIT: rd=x0 data=0 pc=00000160
+[9975000] CDB: tag=9 data=0 (alu_req=1 br_req=0 lsq_req=0 mdu_req=0)
+[9995000] COMMIT: rd=x0 data=0 pc=00000164
+================================
+Register State after execution:
+================================
+x1 = 50  (PASS)  [ADDI]
+x2 = 15  (PASS)  [ADDI]
+x3 = 65  (PASS)  [ADD]
+x4 = 35  (PASS)  [SUB]
+x5 = 750 (PASS)  [MUL]
+x6 = 3   (PASS)  [DIV]
+x7 = 2   (PASS)  [AND]
+x8 = 63  (PASS)  [OR]
+x9 = 750 (PASS)  [SW/LW]
+================================
+Result: 9 / 9 tests passed
+*** ALL TESTS PASSED ***
+================================
+$finish called at time : 40220 ns : File "D:/College Projects/risc_v_ooo/sim/tb_top.v" Line 214

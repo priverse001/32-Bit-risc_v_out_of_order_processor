@@ -1,0 +1,32 @@
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.async_fifo(WIDTH=65,DEPTH_LOG2=3...
+Compiling module xil_defaultlib.axi4_lite_master
+Compiling module xil_defaultlib.async_fifo(DEPTH_LOG2=3)
+Compiling module xil_defaultlib.axi4_lite_master_cdc
+Compiling module xil_defaultlib.perceptron_bpu_default
+Compiling module xil_defaultlib.decode_dispatch
+Compiling module xil_defaultlib.rob
+Compiling module xil_defaultlib.rat
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.rs
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.rs(ENTRIES=4,IDX_WIDTH=2)
+Compiling module xil_defaultlib.branch_unit
+Compiling module xil_defaultlib.rs(ORDERED=1)
+Compiling module xil_defaultlib.lsq
+Compiling module xil_defaultlib.mdu
+Compiling module xil_defaultlib.cdb
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.tb_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_behav

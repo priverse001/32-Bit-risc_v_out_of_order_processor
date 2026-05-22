@@ -1,0 +1,24 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+D:/College Projects/risc_v_ooo/riscv_ooo_project/riscv_ooo_project.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,,,,,,,
+D:/College Projects/risc_v_ooo/sim/tb_top.v,1779449430,verilog,,,,tb_top,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/async_fifo.v,1779111644,verilog,,D:/College Projects/risc_v_ooo/src/core/axi4_lite_master.v,,async_fifo,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/axi4_lite_master.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/axi4_lite_master_cdc.v,D:/College Projects/risc_v_ooo/src/include/params.vh,axi4_lite_master,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/axi4_lite_master_cdc.v,1779447331,verilog,,D:/College Projects/risc_v_ooo/src/execution/branch_unit.v,D:/College Projects/risc_v_ooo/src/include/params.vh,axi4_lite_master_cdc,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/cdb.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/decode_dispatch.v,D:/College Projects/risc_v_ooo/src/include/params.vh,cdb,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/decode_dispatch.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/fetch.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,decode_dispatch,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/fetch.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/execution/lsq.v,D:/College Projects/risc_v_ooo/src/include/params.vh,fetch,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/perceptron_bpu.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/rat.v,D:/College Projects/risc_v_ooo/src/include/params.vh,perceptron_bpu,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/rat.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/register_file.v,D:/College Projects/risc_v_ooo/src/include/params.vh,rat,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/register_file.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/rob.v,D:/College Projects/risc_v_ooo/src/include/params.vh,register_file,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/rob.v,1779448110,verilog,,D:/College Projects/risc_v_ooo/src/core/rs.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,rob,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/core/rs.v,1779448572,verilog,,D:/College Projects/risc_v_ooo/src/top.v,D:/College Projects/risc_v_ooo/src/include/params.vh,rs,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/execution/alu.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/async_fifo.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,alu,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/execution/branch_unit.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/cdb.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,branch_unit,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/execution/lsq.v,1779449169,verilog,,D:/College Projects/risc_v_ooo/src/execution/mdu.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,lsq,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/execution/mdu.v,1779111489,verilog,,D:/College Projects/risc_v_ooo/src/core/perceptron_bpu.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,mdu,,,../../../../../src/include,,,,,
+D:/College Projects/risc_v_ooo/src/include/params.vh,1779111568,verilog,,,,,,,,,,,,
+D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,1779111489,verilog,,,,,,,,,,,,
+D:/College Projects/risc_v_ooo/src/top.v,1779448580,verilog,,D:/College Projects/risc_v_ooo/sim/tb_top.v,D:/College Projects/risc_v_ooo/src/include/params.vh;D:/College Projects/risc_v_ooo/src/include/rv32i_defines.vh,top,,,../../../../../src/include,,,,,

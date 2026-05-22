@@ -1,0 +1,34 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/execution/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/async_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/axi4_lite_master.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_lite_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/axi4_lite_master_cdc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi4_lite_master_cdc
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/execution/branch_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/cdb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cdb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/decode_dispatch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_dispatch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/execution/lsq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lsq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/execution/mdu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mdu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/perceptron_bpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module perceptron_bpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/rat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/rob.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rob
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/core/rs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/src/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/College Projects/risc_v_ooo/sim/tb_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top
