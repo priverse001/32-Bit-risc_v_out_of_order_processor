@@ -24,7 +24,6 @@ If you find a bug or a simulation mismatch:
 
 - Use consistent 4-space indentation.
 - Declare all wires before first use (avoid implicit 1-bit wires in Verilog).
-- Keep section comments concise — no banner lines of `=` characters.
 - Prefer `always @(posedge clk or negedge rst_n)` for synchronous reset-active-low logic.
 - Parameterize all design constants through `rtl/include/params.vh`.
 
@@ -37,6 +36,3 @@ vivado -mode batch -source scripts/run_sim.tcl
 ```
 All 9 self-checking tests in `tb/tb_top.v` must report `[ ALL TESTS PASSED ]`.
 
-## Questions
-
-Open a GitHub Discussion or Issue — happy to help.
