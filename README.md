@@ -88,9 +88,6 @@ A fully-pipelined, superscalar-capable **RISC-V RV32IM out-of-order processor** 
 │   ├── build_vivado.tcl        # Recreates Vivado project from source
 │   └── run_sim.tcl             # Launches behavioral simulation
 ├── docs/
-│   ├── RISC-V_OoO_Engine_PRD.md           # Product Requirements Document
-│   ├── RISC-V_Architecture_Study_Guide.md  # Architecture study reference
-│   └── RISC-V_Architecture_Study_Guide.html
 ├── .gitignore
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
